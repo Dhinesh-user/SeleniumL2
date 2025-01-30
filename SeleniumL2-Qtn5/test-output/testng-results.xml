@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-27T13:10:57 IST" name="Default suite" finished-at="2024-03-27T13:12:05 IST" duration-ms="67558">
+    <groups>
+    </groups>
+    <test started-at="2024-03-27T13:10:57 IST" name="Default test" finished-at="2024-03-27T13:12:05 IST" duration-ms="67558">
+      <class name="Testcases.Testcase">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Testcases.Testcase@353352b6]" started-at="2024-03-27T13:10:57 IST" name="beforeSuite" finished-at="2024-03-27T13:10:57 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:Testcases.Testcase@353352b6]" started-at="2024-03-27T13:10:57 IST" name="LaunchBrowser" finished-at="2024-03-27T13:11:06 IST" duration-ms="9131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="Test1(java.lang.String,java.lang.String)[pri:1, instance:Testcases.Testcase@353352b6]" started-at="2024-03-27T13:11:07 IST" name="Test1" data-provider="wrong creds" finished-at="2024-03-27T13:11:50 IST" duration-ms="42722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vivek]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vivek@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testcases.Testcase@353352b6]" started-at="2024-03-27T13:11:50 IST" name="afterMethod" finished-at="2024-03-27T13:11:50 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="Test2(java.lang.String,java.lang.String)[pri:2, instance:Testcases.Testcase@353352b6]" started-at="2024-03-27T13:11:50 IST" name="Test2" data-provider="correct creds" finished-at="2024-03-27T13:11:58 IST" duration-ms="7567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testcases.Testcase@353352b6]" started-at="2024-03-27T13:11:58 IST" name="afterMethod" finished-at="2024-03-27T13:11:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="Test3(java.lang.String,java.lang.String)[pri:3, instance:Testcases.Testcase@353352b6]" started-at="2024-03-27T13:11:58 IST" name="Test3" data-provider="correct creds" finished-at="2024-03-27T13:12:05 IST" duration-ms="6921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Testcases.Testcase@353352b6]" started-at="2024-03-27T13:12:05 IST" name="afterMethod" finished-at="2024-03-27T13:12:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Testcases.Testcase@353352b6]" started-at="2024-03-27T13:12:05 IST" name="CloseBrowser" finished-at="2024-03-27T13:12:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Testcases.Testcase@353352b6]" started-at="2024-03-27T13:12:05 IST" name="afterSuite" finished-at="2024-03-27T13:12:05 IST" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Testcases.Testcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
