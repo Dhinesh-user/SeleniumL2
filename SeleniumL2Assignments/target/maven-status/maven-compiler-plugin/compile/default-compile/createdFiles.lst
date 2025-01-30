@@ -1,0 +1,5 @@
+Utilities\Excel.class
+Base\LaunchBrowser.class
+PageObjects\Homepage.class
+PageObjects\LoginPage.class
+PageObjects\ForgotPasswordPage.class
